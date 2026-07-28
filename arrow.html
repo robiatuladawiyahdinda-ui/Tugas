@@ -1,0 +1,41 @@
+<!-- Mendeklarasikan bahwa dokumen ini menggunakan standar HTML5 -->
+<!DOCTYPE html>
+
+<!-- Tag pembuka untuk elemen utama/root dari seluruh dokumen HTML -->
+<html>
+
+<!-- Bagian head berisi informasi meta dokumen yang tidak ditampilkan secara visual di halaman -->
+<head>
+  <!-- Menentukan karakter encoding UTF-8 agar browser mengenali berbagai jenis teks dan simbol -->
+  <meta charset="utf-8">
+  
+  <!-- Mengatur viewport agar tampilan halaman web responsif dan menyesuaikan dengan lebar layar perangkat -->
+  <meta name="viewport" content="width=device-width">
+  
+  <!-- Menentukan judul halaman menjadi "Arrow" yang akan muncul pada tab browser Anda -->
+  <title>Arrow</title>
+  
+  <!-- Menghubungkan dokumen HTML ini dengan file CSS (style.css) untuk mengatur gaya atau desain tampilan -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head> <!-- Penutup bagian head -->
+
+<!-- Bagian body berisi semua konten yang akan ditampilkan di dalam halaman web -->
+<body>
+  
+  <!-- Membuat elemen paragraf kosong dengan ID "demo". Elemen ini akan digunakan oleh file JavaScript sebagai target untuk menampilkan output teks -->
+  <p id="demo"></p>
+  
+  <!-- Menghubungkan dan mengeksekusi file JavaScript eksternal bernama "arrow.js". Di sinilah logika Arrow Function Anda berada -->
+  <script src="arrow.js"></script>
+
+  <!-- 
+  Komentar bawaan dari Replit:
+  Script di bawah ini berfungsi untuk menempatkan lencana (badge) pada tampilan browser penuh dari repl Anda.
+  -->
+  
+  <!-- Memuat script JavaScript dari Replit untuk menampilkan lencana berwarna biru. Atribut 'defer' memastikan script ini dieksekusi terakhir setelah elemen HTML lainnya selesai dimuat -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  
+</body> <!-- Penutup bagian body -->
+
+</html> <!-- Penutup seluruh dokumen HTML -->
